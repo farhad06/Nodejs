@@ -1,0 +1,242 @@
+@import 'addi.css';
+body {
+    background-color: lightgray;
+    font-size: 20px;
+    font-family: cursive;
+    font-style: italic;
+    font-style: bold;
+    font-style: oblique;
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        background-color: orangered;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    body {
+        background-color: blue;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    body {
+        background-color: lime;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    body {
+        background-color: lightgray;
+        font-size: 5px;
+        color: indigo;
+    }
+}
+
+
+/*p {
+                background-color: fuchsia;
+                font-size: 23px;
+            }
+            
+            p.firstparagraph {
+                background-color: red;
+            }
+            
+            p#lastparagraph {
+                background-color: springgreen;
+            }
+            
+            p.longpara {
+                background-image: url("nature.jpg");
+                color: orangered;
+                border: 2px solid rgb(178, 127, 32);
+                background-attachment: fixed;
+            }
+            
+            .first {
+                border: 2px solid red;
+                border-radius: 10px;
+                height: 40%;
+                width: auto;
+            }
+            
+            div {
+                margin: 20px;
+                border: 12px solid green;
+                padding: 50px;
+                width: 300px;
+                color: tomato;
+            }
+            
+            div h1 {
+                text-align: center;
+                text-decoration: overline;
+                text-transform: uppercase;
+                letter-spacing: 0;
+                text-shadow: 2px 2px 5px red;
+            }
+            
+            div h2 {
+                text-align: right;
+                text-decoration: line-through;
+                text-transform: lowercase;
+            }
+            
+            div h3 {
+                text-align: left;
+                text-decoration: underline;
+                text-transform: capitalize;
+                white-space: nowrap;
+            }
+            
+            .div1 {
+                margin: 0;
+                border: 2px solid green;
+                padding: 1px;
+                position: fixed;
+                top: 0;
+                right: 0;
+            }
+            
+            .left {
+                border: none solid black;
+                padding: 1px;
+                background-color: blue;
+                height: 150px;
+                width: 300px;
+                float: left;
+                overflow: none;
+            }
+            
+            .right {
+                border: none solid black;
+                padding: 1px;
+                background-color: darkmagenta;
+                height: 150px;
+                width: 300px;
+                float: right;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+            
+            .box {
+                float: left;
+                width: 33.33%;
+                padding: 50px;
+            }
+            
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            
+            span::selection {
+                color: red;
+            }
+            
+            div {
+                background-color: green;
+                padding: 25px;
+                color: white;
+                text-align: center;
+            }
+            
+            p:hover {
+                color: rgb(255, 30, 0);
+            }
+            
+            p {
+                background-color: chartreuse;
+                padding: 20px;
+                display: none;
+            }
+            
+            div:hover p {
+                display: block;
+            }
+            
+            #rcorners1 {
+                border-radius: 25px;
+                background: #73AD21;
+                padding: 20px;
+                width: 200px;
+                height: 150px;
+            }
+            
+            #rcorners2 {
+                border-radius: 25px;
+                border: 2px solid #73AD21;
+                padding: 20px;
+                width: 200px;
+                height: 150px;
+            }
+            
+            #rcorners3 {
+                border-radius: 25px;
+                background: url(paper.gif);
+                background-position: left top;
+                background-repeat: repeat;
+                padding: 20px;
+                width: 200px;
+                height: 150px;
+            }
+            
+            #round1 {
+                border-radius: 15px 50px 30px 5px;
+                background: #04aa6d;
+                padding: 20px;
+                width: 200px;
+                height: 150px;
+            }
+            
+            #round2 {
+                border-radius: 15px 50px 30px;
+                background: #04aa6d;
+                padding: 20px;
+                width: 200px;
+                height: 150px;
+            }
+            
+            #round3 {
+                border-radius: 15px 50px;
+                background: #04aa6d;
+                padding: 20px;
+                width: 200px;
+                height: 150px;
+            }
+            
+            #round4 {
+                border-radius: 2px 50px;
+                background: #04aa6d;
+                padding: 20px;
+                width: 200px;
+                height: 150px;
+            }
+            
+            .example1 {
+                border: none solid black;
+                background-image: url(flower1.jpeg);
+                background-position: left top;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }*/
+
+.flex-container {
+    display: flex;
+    background-color: dodgerblue;
+}
+
+.flex-container>div {
+    background-color: gray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}

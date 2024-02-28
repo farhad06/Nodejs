@@ -1,0 +1,54 @@
+<script type="text/javascript">
+class Test{
+	constructor(name,age){
+		this.name=name;
+		this.age=age;
+	}
+	add(a,b){
+
+		console.log(a+b);
+	}
+}	
+
+const farhad=new Test("Farhad Ahamed",25);
+farhad.add(2,4);
+
+document.writeln("Name is :"+" "+farhad.name +" "+"and" + "Age is: "+ farhad.age);
+//inheritance
+class Car {
+	constructor(brand){
+	this.name=brand;}
+	iHave(){
+		return "Now I have a " + this.brand;
+	}
+
+}
+class Model extends Car{
+	constructor(brand,model_no){
+		super(brand);
+		this.model_no=model_no;
+		
+	}
+	no_of_wheel(){
+		return "This is 4 wheelar car";
+	}
+	show(){
+		return this.iHave();
+	}
+}
+
+const model=new Model("BMW","XAD");
+console.log(model.show());
+
+console.log("Car Name is: "+model.brand +"Model no is: "+model.model_no+ model.no_of_wheel());
+class Player{
+	constructor(name){
+		this.name=name;
+	}
+	static hello(){
+		return "Hello India I am ";
+	}
+}
+let pla=new Player("Rohit Sharma");
+console.log(Player.hello());
+</script>

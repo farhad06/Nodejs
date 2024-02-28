@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+    <title>Login</title>
+</head>
+<body>
+  {{>navbar}}
+    <form class="form-inline" action="/login" method="POST">
+  <label for="email" class="mr-sm-2">Email address:</label>
+  <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter email" id="email" name="email">
+  <label for="pwd" class="mr-sm-2">Password:</label>
+  <input type="password" class="form-control mb-2 mr-sm-2" placeholder="Enter password" id="pwd" name="psw">
+  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+
+</body>
+</html>
