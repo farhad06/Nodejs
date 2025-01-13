@@ -1,1 +1,5 @@
-console.log("HEllo js");
+const http = require('os')
+
+console.log(http.cpus());
+
+
